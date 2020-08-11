@@ -1,15 +1,110 @@
-/* Type your code here */
+.logo
+{
+	margin-left: 85%;
+	margin-top: 40px;
+	display: flex;
+}
+header
+{
+	display: flex;
+	justify-content: center;
+}
 
+.world-cup
+{
+	font-weight: bold;
+	font-size:4em;
+	margin-left: 100px;
+	margin-top: 40px;
+	text-shadow: 2px 5px 10px grey;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background
+{
+	background-image:url("assets/background-image1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1200px;
+}
+p
+{
+ text-align: end;
+ margin-top:-30px;
+ color: white;
+}
+/* table , th, td{
+	border: 1px solid blue;
+} */
+.innings 
+{
+	text-align: left;
+	/* vertical-align: middle; */
+	margin-left:100px;
+	font-size: 1.5em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 40px;
+	box-shadow: 5px 10px 5px grey;
+	/* width: 80%;
+	height: 40%; */
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table th 
+{ 
+	border-bottom: 1px solid rgb(197, 190, 190); 
+}
+table td
+{
+	border-bottom: 1px solid rgb(197, 190, 190); 
 
+}
+
+table
+{
+	background-color: whitesmoke;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* height: 90px; */
+	/* max-width: 90px;	 */
+}
+#one
+{
+	background-color: red;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	
+}
+a
+{
+	text-decoration: none;
+}
+.head
+{
+	align-items: flex-end;
+}
+.two
+{
+	color: grey;
+}
+.india
+{
+	font-size: 2em;
+	font-weight: 590;
+	color: grey;
+	margin-left:100px;
+	margin-top: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
+	top:5px;
+	margin-left: 110px;
+	margin-top: 70px;
+	font-size: 29px;
 	font-family: Nunito Sans;
     font-style: normal;
     
